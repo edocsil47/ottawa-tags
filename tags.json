@@ -1,8 +1,11 @@
 [
 	{
 		"name": "Rule 2 - Spoofing",
-		"message": {
+		"messageOptions": {
 			"content": "Trainer, remember to follow the server rules. Thank you!",
+			"aliases": [
+				"cheating"
+			],
 			"embeds": [
 				{
 					"title": "Server Rule Reminder",
