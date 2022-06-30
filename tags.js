@@ -37,7 +37,7 @@ module.exports = [
 	{
 		name: "Rule 2 - Spoofing",
 		aliases: [ "cheating" ],
-		message: {
+		messageOptions: {
 			content: `Trainer, remember to follow the server rules. Thank you!`,
 			embeds: [
 				new MessageEmbed()
