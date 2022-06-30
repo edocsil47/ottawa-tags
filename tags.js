@@ -36,7 +36,7 @@ module.exports = [
 	*/
 	{
 		name: "Rule 2 - Spoofing",
-		aliases: [ "cheating", "modified" ],
+		aliases: [ "rule2", "cheating", "modified" ],
 		messageOptions: {
 			content: `Trainer, remember to follow the server rules. Thank you!`,
 			embeds: [
