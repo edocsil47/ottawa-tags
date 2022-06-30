@@ -47,4 +47,30 @@ module.exports = [
 			],
 		},
 	},
+	{
+		name: "Trading",
+		aliases: [ "trades" ],
+		messageOptions: {
+			content: `Trainer, remember to follow the server rules. Thank you!`,
+			embeds: [
+				new MessageEmbed()
+					.setTitle("Trading in Pokémon GO")
+					.setDescription("Trading can only be done in person within 100 metres of each other. Also keep in mind that IVs reroll, and that Pokémon can only be traded once. Mythical Pokémon cannot be traded, except for Meltan and Melmetal")
+					.setColor(colors.joy)
+			],
+		},
+	},
+	{
+		name: "Rule 4 - No Spam",
+		aliases: [],
+		messageOptions: {
+			content: `Trainer, remember to follow the server rules. Thank you!`,
+			embeds: [
+				new MessageEmbed()
+					.setTitle("Server Rule Reminder")
+					.setDescription("Do not spam channels, and be sure to keep content relative to the channel you're in")
+					.setColor(colors.chansey)
+			],
+		},
+	},
 ]
