@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Rule 2 - Spoofing",
+		"aliases": [
+			"cheating"
+		],
+		"messageOptions": {
+			"content": "Trainer, remember to follow the server rules. Thank you!",
+			"embeds": [
+				{
+					"title": "Server Rule Reminder",
+					"description": "Spoofing and modified versions of the game are **not allowed** here. This includes **any** type of discussion about it",
+					"color": 12872892
+				}
+			],
+			"components": [
+				{
+					"type": 1,
+					"components": [
+						{
+							"type": 2,
+							"label": "Press me!",
+							"style": 5,
+							"url": "https://discord.com/channels/200837505145110528/911646228507426816"
+						}
+					]
+				}
+			]
+		}
+	}
+]
