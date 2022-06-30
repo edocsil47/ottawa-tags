@@ -14,7 +14,7 @@ module.exports = [
 	{
 		name: "Rule 2 - Spoofing", // tag name
 		aliases: [ "rule2", "cheating", "modified" ], // other words that can be searched for. words already contained in the name are redundant
-		message: {
+		messageOptions: {
 			content: `Trainer, remember to follow the server rules. Thank you!`, // message content
 			embeds: [ // message embeds
 				new MessageEmbed()
