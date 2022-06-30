@@ -43,6 +43,7 @@ module.exports = [
 				new MessageEmbed()
 					.setTitle("Server Rule Reminder")
 					.setDescription("Spoofing and modified versions of the game are **not allowed** here. This includes **any** type of discussion about it")
+					.setColor(colors.chansey)
 			],
 		},
 	},
